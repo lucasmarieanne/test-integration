@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #FFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    color: black;
+}
+
+.wrapper {
+    top: 0; left: 0; right: 0;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    padding: 0 5%;
+}
+
+.logo {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    border-bottom: 1px rgb(124, 124, 124) solid;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+.nav-list li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-list li a {
+    color: rgb(124, 124, 124);
+}
+
+.nav-list .btn {
+    color: black;
+}
+
+.home {
+    width: 100%;
+    height: 70vh;
+    background-image: url(../photo-bandeau.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 20px 20px rgb(143, 143, 143);
+    z-index: 100;
+    position: absolute;
+}
+
+.container {
+    padding: 100px;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.home .container .btn {
+    background-color: orange;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container h1 {
+    color: white;
+    padding-bottom: 90px;
+}
+
+input {
+    padding-top: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.content {
+    padding: 0 7%;
+}
+
+.content-container {
+    display: flex;
+}
+
+.text p {
+    padding-top: 20px;
+    margin-left: 30px;
+}
+
+.text1 {
+    color: cadetblue;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-shadow: 0 1px 1px black;
+}
+
+.text p span {
+    background-color: gray;
+    color: white;
+    padding-top: 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.offre ul li {
+    color: black;
+}
+
+.notfinish {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: brown;
+}
+
+.notfinish h1 {
+    text-align: center;
+    font-size: 50px;
+}
